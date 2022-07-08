@@ -19,9 +19,9 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
-        archiveArtifacts '**/target/*.jar'
+        archiveArtifacts '**/target/*.war'
       }
     }
 
